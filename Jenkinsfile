@@ -24,6 +24,6 @@ node {
 	
 	stage ('Application Deployment') {
 		sh """ssh -T ${env_properties.deploy_user}@${env_properties.deploy_ip} 'bash -s' < $WORKSPACE/deploy.sh ${env_properties.package_name}"""
-	}	Application deployment stage ends
+	}	//Application deployment stage ends
 	
 } //node ends
