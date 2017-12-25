@@ -1,4 +1,4 @@
 #!/bin/bash
 
-createrepo --update $1
+sudo createrepo --update $1
 #createrepo --update <repo_path>
