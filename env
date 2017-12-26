@@ -4,4 +4,4 @@ remote_ip=18.231.42.191
 remote_rpm_location=/var/ggk/
 deploy_user=ec2-user
 deploy_ip=18.231.32.230
-package_name=myservice*.gz
+package_name=myservice*
